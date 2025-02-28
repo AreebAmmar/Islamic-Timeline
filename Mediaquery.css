@@ -64,6 +64,7 @@ text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.5);
 }
 /* #endregion */
 
+/* #region Container2 */
 .con2mq{
     display: block;
     padding: 30px 15px;
@@ -114,10 +115,19 @@ margin: 30px 0px;}
 .subcon2text2mq,.subcon3text2mq,.subcon4text2mq,.subcon5text2mq,.subcon6text2mq{
     padding: 0px 15px;
 }
+/* #endregion */
 
-
-
-
+/* #region Container3 */
+.con3{
+    padding: 30px 15px;
+}
+.subcont3_1{
+    text-align: center;
+    font-size: 25px;
+    color: #FFD700;
+    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.7);
+    width: 100%;}
+/* #endregion */
 
 
 
