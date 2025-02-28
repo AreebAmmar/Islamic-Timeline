@@ -171,7 +171,6 @@ text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.5);
 /* #endregion */
 
 /* #region Container4 */
-
 .con4 {
     padding: 50px 30px 10px 30px;
     background-color: #d2c2b4;
@@ -183,13 +182,13 @@ text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.5);
 h2 {
     text-align: center;
     color: black;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .subcon4 {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
     padding: 20px;
     border-radius: 8px;
     background: black;
@@ -202,16 +201,14 @@ h2 {
 }
 
 .subcon4 img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
+    width: 200px;
+    height: 180px;
     border-radius: 8px;
-    justify-self: center;
+    margin-right: 20px;
 }
 
 .subcon4text {
-    text-align: center;
-    padding: 10px;
+    flex: 1;
 }
 
 .subcon4text h3 {
@@ -225,41 +222,6 @@ h2 {
     color: white;
     font-size: 16px;
     line-height: 1.6;
-}
-
-/* Responsive Grid Layout */
-@media (min-width: 768px) {
-    .subcon4 {
-        grid-template-columns: 1fr 2fr;
-        align-items: center;
-    }
-
-    .subcon4text {
-        text-align: left;
-    }
-}
-
-@media (min-width: 1024px) {
-    .con4 {
-        padding: 60px;
-    }
-
-    .subcon4 {
-        grid-template-columns: 1fr 3fr;
-        margin-bottom: 50px;
-    }
-
-    h2 {
-        font-size: 50px;
-    }
-
-    .subcon4text h3 {
-        font-size: 24px;
-    }
-
-    .subcon4text p {
-        font-size: 18px;
-    }
 }
 /* #endregion */
 
